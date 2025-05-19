@@ -1,0 +1,31 @@
+1. CREAR LA CARPETA DE ENTORNOS
+mkdir entornos
+
+2. CREAR EL ENTORNO VIRTUAL DE TRABAJO
+py -3 -m venv .venv
+
+3. ACTIVAR EL ENTORNO VIRTUAL DE TRABAJO
+
+.venv\Scripts\activate
+
+4. CLONAR LA CARPETA DE PROYECTOS
+
+clonar repositorio de git en la compu
+
+EJEMPLO DE STREAMLITE CLASIFICACIÓN DE IMÁGENES
+
+URL   
+https://github.com/Maestria-IA-Aplicada-2025/semana6-op-streamlit
+
+CLONAR EN LOCAL
+git clone https://github.com/Maestria-IA-Aplicada-2025/semana6-op-streamlit.git
+
+
+5. INSTALAR LAS LIBRERÍAS EN LA CARPETA DEL PROYECTO
+
+pip install -r requirements.txt
+
+6. ACTIVAR LA APLICACIÓN DE STREAMLIT
+en la carpeta del proyecto (símbolo del sistema) ejecutar la siguiente instrucción:
+ 
+streamlit run app.py
